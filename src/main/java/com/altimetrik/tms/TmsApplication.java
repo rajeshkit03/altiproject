@@ -11,4 +11,8 @@ public class TmsApplication {
 		SpringApplication.run(TmsApplication.class, args);
 	}
 
+	public void display(){
+		System.out.println("In Tejas display Method");
+	}
+
 }
