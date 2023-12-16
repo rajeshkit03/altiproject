@@ -11,4 +11,8 @@ public class TmsApplication {
 		SpringApplication.run(TmsApplication.class, args);
 	}
 
+	public void supMethod(){
+		System.out.println("Supreeth method");
+	}
+
 }
