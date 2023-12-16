@@ -11,8 +11,12 @@ public class TmsApplication {
 		SpringApplication.run(TmsApplication.class, args);
 	}
 
+repository
+	public void supMethod(){
+		System.out.println("Supreeth method");
 	public void display(){
 		System.out.println("In Tejas display Method");
+
 	}
 
 }
