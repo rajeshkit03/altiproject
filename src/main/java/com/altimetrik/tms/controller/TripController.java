@@ -21,7 +21,12 @@ public class TripController {
     public TripController(TripService tripService) {
         this.tripService = tripService;
     }
-
+    @RequestMapping(value="/",method = RequestMethod.GET) //create a trip resource
+    @ResponseBody
+    public String makeTrip1(){
+        
+        return "jkasnfjk sdfbkdjsf";
+    }
     @RequestMapping(value="/trip",method = RequestMethod.POST) //create a trip resource
     @ResponseBody
     public Trip makeTrip(@RequestBody @Valid Trip trip){
